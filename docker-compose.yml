@@ -1,0 +1,10 @@
+services:
+  tilda:
+    volumes:
+      - ./seeds:/data/seeds/
+    container_name: forwarding-mocker
+    ports:
+      - '8120:8110'
+    environment:
+      - PORT=8110
+    image: ghcr.io/zzacal/tilda:v5.0.2-alpha

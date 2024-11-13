@@ -1,0 +1,17 @@
+[
+  {
+    "request": {
+      "path": "/success",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "200",
+      "body": {},
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]

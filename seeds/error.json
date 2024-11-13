@@ -1,0 +1,19 @@
+[
+  {
+    "request": {
+      "path": "/error",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": true
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]
