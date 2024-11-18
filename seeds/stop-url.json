@@ -1,0 +1,26 @@
+[
+  {
+    "request": {
+      "path": "/stop-url",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": false,
+        "navigation": {
+          "method": "POST",
+          "url": "https://google.com",
+          "body":{
+            "findMe": "someBody"
+          }
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]

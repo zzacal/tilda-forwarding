@@ -1,0 +1,20 @@
+[
+  {
+    "request": {
+      "path": "/bad-stop-url",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": false,
+        "url": "google.com"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]
