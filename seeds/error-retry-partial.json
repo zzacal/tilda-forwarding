@@ -1,0 +1,20 @@
+[
+  {
+    "request": {
+      "path": "/error-retry-partial",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": true,
+        "errorCode": "PARTIAL"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]

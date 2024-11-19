@@ -1,0 +1,26 @@
+[
+  {
+    "request": {
+      "path": "/error-stop-get-alaskaair",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": false,
+        "navigation": {
+          "method": "GET",
+          "url": "https://www.alaskaair.com",
+          "body":{
+            "name": "zac"
+          }
+        }
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]

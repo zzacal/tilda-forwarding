@@ -1,0 +1,20 @@
+[
+  {
+    "request": {
+      "path": "/error-retry-notfound",
+      "params": {},
+      "body": {}
+    },
+    "response": {
+      "type": "obj",
+      "status": "400",
+      "body": {
+        "retriable": true,
+        "errorCode": "NOTFOUND"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+  }
+]
